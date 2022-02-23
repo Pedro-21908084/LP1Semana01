@@ -18,9 +18,15 @@ namespace Argumentos
             char character2 = '\u1f60';
             char character3 = '\u03c0';
 
+            //declaration and initialization of real numbers
+            float real1 = 3.1415f;
+            double real2 = 1.34;
+
 
             //printing of the variables
-            Console.WriteLine(string.Format("Inteiro: {0} \nInteiro sem sinal: {1}\nCharacter: {2}\nCharacter: {3}\nCharacter: {4}", inteiro1, inteiro2, character1, character2, character3));
+            Console.WriteLine(string.Format("Inteiro: {0} \nInteiro sem sinal: {1}", inteiro1, inteiro2));
+            Console.WriteLine(string.Format("Character: {0}\nCharacter: {1}\nCharacter: {2}", character1, character2, character3));
+            Console.WriteLine(string.Format("Real: {0}\nReal: {1}", real1, real2));
         }
     }
 }
