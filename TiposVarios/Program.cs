@@ -22,11 +22,16 @@ namespace Argumentos
             float real1 = 3.1415f;
             double real2 = 1.34;
 
+            //declaration and initialization of bools
+            bool bool1 = true;
+            bool bool2 = false;
+
 
             //printing of the variables
             Console.WriteLine(string.Format("Inteiro: {0} \nInteiro sem sinal: {1}", inteiro1, inteiro2));
             Console.WriteLine(string.Format("Character: {0}\nCharacter: {1}\nCharacter: {2}", character1, character2, character3));
             Console.WriteLine(string.Format("Real: {0}\nReal: {1}", real1, real2));
+            Console.WriteLine(string.Format("Bool: {0}\nBool: {1}", bool1, bool2));
         }
     }
 }
