@@ -13,6 +13,15 @@ namespace Argumentos
             string string4 = @"styring verbatim com barra \";
             string string5 = "\"aspas em string normal\"";
             string string6 = @"""aspas em string verbatim""";
+            
+            int x = 5;
+            int y = 3;
+            //declaration and initialization of strings for exercise 5
+            string string7 = "x = " + x;
+            string string8 = "number = " + 5;
+            string string9 = $"y = {y}";
+            string string10 = $"{x} + {y} = {x+y}";
+            string string11 = String.Format("x = {0} in string format", x);
 
             //string prints
             Console.WriteLine(string1);
@@ -21,6 +30,11 @@ namespace Argumentos
             Console.WriteLine(string4);
             Console.WriteLine(string5);
             Console.WriteLine(string6);
+            Console.WriteLine(string7);
+            Console.WriteLine(string8);
+            Console.WriteLine(string9);
+            Console.WriteLine(string10);
+            Console.WriteLine(string11);
         }
     }
 }
