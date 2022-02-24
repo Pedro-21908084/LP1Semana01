@@ -7,8 +7,10 @@ namespace Argumentos
         static void Main(string[] args)
         {
             //declaration and initialization of strings
-            string string1 = "Esta é uma string normal onde \u03c0 é unicode com escape.";
-            string string2 = @"Esta é uma string verbatim onde \u03c0 é unicode com escape.";
+            string string1 = "Esta é uma string normal onde \u03c0 é unicode" + 
+            " com escape.";
+            string string2 = @"Esta é uma string verbatim onde \u03c0 é " + 
+            "unicode com escape.";
             string string3 = "styring normal com barra \\";
             string string4 = @"styring verbatim com barra \";
             string string5 = "\"aspas em string normal\"";
@@ -41,7 +43,8 @@ namespace Argumentos
             double xx = 0.12345;
             int ii = 18;
 
-            Console.WriteLine($"xx in decimals: {xx:f2}, xx in percentage {xx:p1}");
+            Console.WriteLine($"xx in decimals: {xx:f2}, xx in percentage" + 
+            " {xx:p1}");
             Console.WriteLine($"ii in hexa: 0x{ii:x}, ii in coin: {ii:c}");
         }
     }

@@ -14,7 +14,8 @@ namespace Exercise16
             int number2;
             int number3;
 
-            Console.WriteLine("Hello, in this program ill tell you if two numbers given result in the third.");
+            Console.WriteLine("Hello, in this program ill tell you if two " + 
+            "numbers given result in the third.");
 
             //Read user input
             Console.Write("Tell me the first integer number: ");

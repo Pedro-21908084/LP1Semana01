@@ -26,7 +26,8 @@ namespace Exercise12
             number2 = StringConvertInt(userNumber2);
 
             //Print results
-            Console.WriteLine($"Adding the two numbers given results in {number1 + number2}");
+            Console.WriteLine($"Adding the two numbers given results " + 
+            "in {number1 + number2}");
         }
 
         static int StringConvertInt(string s)

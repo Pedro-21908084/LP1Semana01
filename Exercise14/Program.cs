@@ -15,7 +15,8 @@ namespace Exercise14
             float height;
             float result;
 
-            Console.WriteLine("Hello, in this program we will calcolate de volume of a box.");
+            Console.WriteLine("Hello, in this program we will calcolate de " + 
+            "volume of a box.");
 
             //Read variables
             Console.Write("Tell me the box's height: ");
