@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariasStrings", "VariasStri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise10", "Exercise10\Exercise10.csproj", "{E1437836-ADD1-48DD-B222-595394FB12D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise11", "Exercise11\Exercise11.csproj", "{166D61F7-52AB-42EB-8D5C-961A800A4203}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{E1437836-ADD1-48DD-B222-595394FB12D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1437836-ADD1-48DD-B222-595394FB12D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1437836-ADD1-48DD-B222-595394FB12D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166D61F7-52AB-42EB-8D5C-961A800A4203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166D61F7-52AB-42EB-8D5C-961A800A4203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166D61F7-52AB-42EB-8D5C-961A800A4203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166D61F7-52AB-42EB-8D5C-961A800A4203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
